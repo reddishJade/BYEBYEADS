@@ -4,6 +4,22 @@ import glob
 import re
 import shutil
 from pathlib import Path
+from datetime import datetime
+import pytz
+
+def generate_metadata(rule_count):
+    # 获取北京时间
+    beijing_tz = pytz.timezone('Asia/Shanghai')
+    current_time = datetime.now(beijing_tz)
+    
+    metadata = f"""! Title: BYEBYEADS
+! Homepage: https://github.com/reddishJade/BYEBYEADS
+! Version: {current_time.strftime('%Y-%m-%d %H:%M:%S')}（北京时间）
+! Description: 适用于AdGuard、uBlock Origin等的去广告规则，合并优质上游规则并去重整理排列
+! Total count: {rule_count}
+
+"""
+    return metadata
 
 os.chdir('tmp')
 
@@ -75,15 +91,18 @@ result = []
 for file in files:  # 遍历文件夹
     if not os.path.isdir(file):  # 判断是否是文件夹，不是文件夹才打开
         if os.path.splitext(file)[1] == '.txt':
-            # print('开始去重'+(file))
             with open(file, encoding="utf-8") as f:  # 打开文件
                 result = list(set(f.readlines()))
                 result.sort()
+            
+            # 添加元信息
+            metadata = generate_metadata(len(result))
             with open('test' + (file), "w", encoding="utf-8") as fo:
-                fo.writelines(result)
+                fo.write(metadata)  # 先写入元信息
+                fo.writelines(result)  # 再写入规则
+            
             os.remove(file)
             os.rename('test' + (file), (file))
-            # print((file) + '去重完成')
 
 print("规则去重完成")
 
