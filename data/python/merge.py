@@ -86,3 +86,10 @@ for file in files:  # 遍历文件夹
             # print((file) + '去重完成')
 
 print("规则去重完成")
+
+# 清理临时文件夹
+print("清理临时文件")
+tmp_dir = os.path.join(os.path.dirname(os.getcwd()), 'tmp')
+if os.path.exists(tmp_dir):
+    shutil.rmtree(tmp_dir)
+    print("临时文件清理完成")
