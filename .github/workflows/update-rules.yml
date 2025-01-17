@@ -1,0 +1,42 @@
+name: Update Rules
+
+on:
+  schedule:
+    - cron: '0 */12 * * *'  # 每12小时运行一次
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests pytz
+        
+    - name: Update rules
+      run: |
+        python data/python/dl.py
+        python data/python/merge.py
+        
+    - name: Configure Git
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        
+    - name: Commit and push if changed
+      run: |
+        git add data/rules/
+        timestamp=$(date '+%Y-%m-%d %H:%M:%S')
+        git commit -m "chore: update rules - ${timestamp}" || exit 0
+        git push 

@@ -14,6 +14,7 @@ def generate_metadata(rule_count):
     
     metadata = f"""! Title: BYEBYEADS
 ! Homepage: https://github.com/reddishJade/BYEBYEADS
+! Expires: 12 Hours
 ! Version: {current_time.strftime('%Y-%m-%d %H:%M:%S')}（北京时间）
 ! Description: 适用于AdGuard、uBlock Origin等的去广告规则，合并优质上游规则并去重整理排列
 ! Total count: {rule_count}
