@@ -15,7 +15,14 @@ jobs:
     - uses: actions/checkout@v4
       with:
         fetch-depth: 0
-        token: ${{ secrets.GITHUB_TOKEN }}  # 使用内置的 GITHUB_TOKEN
+        ref: rules  # 检出 rules 分支
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Create rules branch if not exists
+      run: |
+        git fetch origin
+        git checkout rules 2>/dev/null || git checkout -b rules
+        git reset --hard origin/rules 2>/dev/null || true
     
     - name: Set up Python
       uses: actions/setup-python@v5
@@ -26,6 +33,12 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install requests pytz
+        
+    - name: Copy scripts from main
+      run: |
+        git fetch origin main
+        git checkout origin/main -- data/python/
+        git checkout origin/main -- data/mod/
         
     - name: Update rules
       run: |
@@ -45,4 +58,4 @@ jobs:
         git add data/rules/
         timestamp=$(date '+%Y-%m-%d %H:%M:%S')
         git commit -m "chore: update rules - ${timestamp}（北京时间）" || exit 0
-        git push origin HEAD:main 
+        git push origin rules 
