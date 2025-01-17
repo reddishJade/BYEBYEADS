@@ -40,8 +40,9 @@ jobs:
     - name: Commit and push if changed
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        TZ: Asia/Shanghai  # 设置时区为北京时间
       run: |
         git add data/rules/
         timestamp=$(date '+%Y-%m-%d %H:%M:%S')
-        git commit -m "chore: update rules - ${timestamp}" || exit 0
+        git commit -m "chore: update rules - ${timestamp}（北京时间）" || exit 0
         git push origin HEAD:main 
