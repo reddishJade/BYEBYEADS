@@ -41,15 +41,15 @@ adblock = [
     "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_11_Mobile/filter.txt",
     "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt",
     "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_224_Chinese/filter.txt",
+    # "https://easylist-downloads.adblockplus.org/easylist.txt",
+    # "https://easylist-downloads.adblockplus.org/easylistchina.txt",
+    # "https://easylist-downloads.adblockplus.org/easyprivacy.txt",
+    # "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt",
     "https://raw.githubusercontent.com/d3ward/toolz/master/src/d3host.txt",
-    "https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt",
-    "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt",
-    "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt",
-    "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt",
-    "https://easylist-downloads.adblockplus.org/easylist.txt",
-    "https://easylist-downloads.adblockplus.org/easylistchina.txt",
-    "https://easylist-downloads.adblockplus.org/easyprivacy.txt",
-    "https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt"
+    # "https://raw.githubusercontent.com/Noyllopa/NoAppDownload/master/NoAppDownload.txt",
+    # "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/rule.txt",
+    # "https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt",
+    "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/AWAvenue-Ads-Rule.txt"
 ]
 
 # 白名单规则
