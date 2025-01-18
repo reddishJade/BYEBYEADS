@@ -1,9 +1,9 @@
 ! Title: BYEBYEADS
 ! Homepage: https://github.com/reddishJade/BYEBYEADS
 ! Expires: 12 Hours
-! Version: 2025-01-18 00:04:50（北京时间）
+! Version: 2025-01-18 08:56:19（北京时间）
 ! Description: 适用于AdGuard、uBlock Origin等的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16807
+! Total count: 16811
 
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$cookie=__gads,domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com|armypowerinfo.com|artoffocas.com|bhugolinfo.com|bhugolinfo.com|cxissuegk.com|gknutshell.com|godstoryinfo.com|laweducationinfo.com|makeincomeinfo.com|rsfinanceinfo.com|rsgames.xyz|savemoneyinfo.com|vichitrainfo.com|workproductivityinfo.com|worldaffairinfo.com
@@ -4242,6 +4242,7 @@
 @@||coinzillatag.com/lib/display.js$domain=viefaucet.com
 @@||coinzillatag.com/lib/displayf.js$xmlhttprequest,domain=simplebits.io
 @@||coinzillatag.com/lib/fp.js$domain=faucetcrypto.com
+@@||cokcok.stream/play/$stealth=referrer
 @@||colamanga.com/js/*/load.js
 @@||colamanga.com^$generichide
 @@||colatour.com.tw/webDM/*/adbanner$~third-party
@@ -13125,6 +13126,8 @@
 @@||sammyboy.com/members/*advertisement$xmlhttprequest
 @@||sammyboy.com/threads/*advertisement$xmlhttprequest
 @@||samnaprawiam.com^$generichide
+@@||sams.11freunde.de/ee/irl1/v1/interact?$domain=11freunde.de
+@@||sams.spiegel.de/ee/irl1/v1/interact?$domain=spiegel.de
 @@||samuraiscan.com^$generichide
 @@||sandbox.cryptpad.info^$elemhide,jsinject,content,extension
 @@||sankakucomplex.com/*/post/index.content?next=$xmlhttprequest,jsinject,elemhide,extension
@@ -15494,6 +15497,7 @@
 @@||ttk-com.ru/wp-content/plugins/popup-maker/assets/js/site.min.js
 @@||ttkdex.com^$generichide
 @@||ttkdex.com^*ad$~third-party
+@@||ttmetrics.faz.net/rest/v1/delivery?$domain=faz.net
 @@||ttorial.com^$generichide
 @@||tts.carbonatixaudio.com^$stealth=referrer
 @@||ttsfree.com/adex.js
