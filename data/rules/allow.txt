@@ -1,9 +1,9 @@
 ! Title: BYEBYEADS
 ! Homepage: https://github.com/reddishJade/BYEBYEADS
 ! Expires: 12 Hours
-! Version: 2025-01-20 20:23:42（北京时间）
+! Version: 2025-01-21 08:57:46（北京时间）
 ! Description: 适用于AdGuard、uBlock Origin等的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16112
+! Total count: 16121
 
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$cookie=__gads,domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com|armypowerinfo.com|artoffocas.com|bhugolinfo.com|bhugolinfo.com|cxissuegk.com|gknutshell.com|godstoryinfo.com|laweducationinfo.com|makeincomeinfo.com|rsfinanceinfo.com|rsgames.xyz|savemoneyinfo.com|vichitrainfo.com|workproductivityinfo.com|worldaffairinfo.com
@@ -503,6 +503,7 @@
 @@app.arizonawildcats.com/preferences
 @@assets/dist//bts2$xmlhttprequest,stealth=referrer,domain=previbes.online
 @@cdn.eporner.com^$stealth=referrer
+@@chunklist.m3u8$stealth=referrer,domain=reliabletv.me
 @@clicks.$domain=cimbclicks.com.my,~third-party
 @@cloudfront.net/index.js$domain=adn.com
 @@doubleclick.net/ads/preferences/
@@ -1999,6 +2000,7 @@
 @@||app.appsflyer.com/id*&*navigate_url*shopee.co
 @@||app.canada.com/video/assets/js/lib/advertisement.js
 @@||app.clickfunnels.com/assets/lander.js$script,domain=propanefitness.com
+@@||app.convertbox.com^$domain=genevievegauvin.com
 @@||app.datapacket.com^$content
 @@||app.erevie.pl/assets/CookieConsent-*.js
 @@||app.eu.usercentrics.eu^$domain=loewenbraeukeller.com
@@ -3083,6 +3085,7 @@
 @@||cdn.consentmanager.net/delivery/lang/langpurpose*.min.js$stealth
 @@||cdn.contentful.com/spaces^$stealth
 @@||cdn.conversant.mgr.consensu.org/gdpr/cmp/config/m/e/mentalfloss.com/config.js$domain=mentalfloss.com
+@@||cdn.convertbox.com^$domain=genevievegauvin.com
 @@||cdn.cookielaw.org/$script,xmlhttprequest,domain=crunchyroll.com
 @@||cdn.cookielaw.org/consent
 @@||cdn.cookielaw.org/opt-out/otCCPAiab.js$domain=bikeforums.net
@@ -4224,6 +4227,7 @@
 @@||consent.cookiebot.com^$script,domain=refinery29.com
 @@||consent.cookiebot.eu/uc.js$domain=flughafen-zuerich.ch
 @@||consent.cookiebot.eu/uc.js$domain=mullerpolska.pl
+@@||consent.cookiebot.eu/uc.js$domain=netkom.de
 @@||consent.cookiebot.eu/uc.js$domain=thueringer-energienetze.com
 @@||consent.cookiebot.eu/uc.js$domain=woolworth.de|woolworth.pl|woolworth.at
 @@||consent.cookiebot.eu^$domain=apoteket.se
@@ -5565,6 +5569,7 @@
 @@||file-upload.cc^$generichide
 @@||file-upload.com/js/advertisement.js
 @@||file-upload.com^$generichide
+@@||file-upload.net/include/adserver.js$domain=file-upload.net
 @@||file.fm/f/$stealth
 @@||file.myqcloud.com/*.mp4?token=$stealth
 @@||file.myqcloud.com^$stealth,image,domain=icezmz.com
@@ -8081,6 +8086,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=texastech.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=theticket.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=timesnownews.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=titans.com.au
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tokfm.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=trojmiasto.pl
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=tsn.ua
@@ -8748,6 +8754,7 @@
 @@||keran.co/*/libs/ad*.js
 @@||key-hub.eu/js/prebid-ads.js
 @@||keylerbenden.com^$generichide
+@@||keyvdowallet.me^$stealth=referrer
 @@||kf.cn/ad/css/*.*.
 @@||kf.cn/ad/css/*.css
 @@||kf.cn/ad/css/images/
@@ -12326,6 +12333,7 @@
 @@||relampagomovies.com^$generichide
 @@||relap.io/api/v*/head.js$domain=briefly.ru|kulturologia.ru,stealth
 @@||relatosdesexo.xxx^$generichide
+@@||reliabletv.me/*embed/$stealth=referrer
 @@||relmz.io^$generichide
 @@||remax.es/wp-content/plugins/complianz-gdpr/assets/js/cookieconsent.min.js
 @@||remington-europe.com/static/version1735728075/frontend/Magento/base/default/Amasty_GdprFrontendUi/
@@ -12564,6 +12572,7 @@
 @@||s3.amazonaws.com/assets.sidearmsports.com/plugins/detector.min.js?$domain=bigten.org|greenbayphoenix.com|umterps.com
 @@||s3.amazonaws.com/khachack/*.js$script,domain=ndtv.com
 @@||s3.amazonaws.com^$stealth,domain=informationisbeautiful.net
+@@||s3t3d2y8.afcdn.net/library/$image,domain=pmvhaven.com
 @@||s41poke.com^$generichide
 @@||s79.research.de.com/bb-mx/prime$domain=joyn.de
 @@||s8-tvn24.cdntvn.pl/js/_compressed/_adv/advert.js
