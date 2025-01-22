@@ -1,9 +1,9 @@
 ! Title: BYEBYEADS
 ! Homepage: https://github.com/reddishJade/BYEBYEADS
 ! Expires: 12 Hours
-! Version: 2025-01-21 20:24:02（北京时间）
+! Version: 2025-01-22 08:59:20（北京时间）
 ! Description: 适用于AdGuard、uBlock Origin等的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16121
+! Total count: 16122
 
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$cookie=__gads,domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com|armypowerinfo.com|artoffocas.com|bhugolinfo.com|bhugolinfo.com|cxissuegk.com|gknutshell.com|godstoryinfo.com|laweducationinfo.com|makeincomeinfo.com|rsfinanceinfo.com|rsgames.xyz|savemoneyinfo.com|vichitrainfo.com|workproductivityinfo.com|worldaffairinfo.com
@@ -792,6 +792,7 @@
 @@||a.klaviyo.com/media/js/onsite/onsite.js$domain=kravebeauty.com
 @@||a.klaviyo.com/onsite/api/*/modules?company_id=$domain=complyfoam.com
 @@||a.ligatus.com/?ids=*&t=js$script,domain=lachainemeteo.com
+@@||a.lmcdn.ru/static/*/assets/pushwoosh-$script,domain=lamoda.by
 @@||a.lmcdn.ru/static/*/assets/pushwoosh-*.js$domain=lamoda.ru
 @@||a.lulucdn.com/js/dnsads.js
 @@||a.magsrv.com/ad-provider.js$domain=jembut.us
@@ -1488,7 +1489,6 @@
 @@||allmath.com^$generichide
 @@||allmusic.com/ads.js
 @@||allmusic.com/images/tracking/tracking_pixel.jpg
-@@||allpornstream.com/api/ads?type=thumbnail$~third-party
 @@||allsport-live.net^$stealth
 @@||allthatsinteresting.com/wordpress/wp-content/plugins/bwp-minify^
 @@||allvideos.me^$generichide
@@ -1748,9 +1748,6 @@
 @@||api-edge.cognitive.microsofttranslator.com/translate?
 @@||api-get.mgsearcher.com/api/$stealth=referrer
 @@||api-gw.spot.im/v*/feed/spot/sp_*/$domain=bizpacreview.com
-@@||api-iam.intercom.io/messenger/web/ping$domain=help.kobo.com
-@@||api-iam.intercom.io/messenger/web/ping$domain=help.openai.com
-@@||api-iam.intercom.io/messenger/web/ping$domain=support.anthropic.com
 @@||api-js.datadome.co/js/$domain=account.samsung.com
 @@||api-js.datadome.co/js/|$stealth,domain=auth.garena.com
 @@||api-maps.yandex.$stealth=referrer
@@ -4297,6 +4294,7 @@
 @@||consentmanager.net^$domain=parkerlebnis.de
 @@||consentmanager.net^$domain=well.pl
 @@||consents.usercentrics.eu/consent*?controllerId=$domain=sixx.de|prosiebenmaxx.de|sat1.de|prosieben.de|kabeleins.de|sixx.de|sat1gold.de|ran.de|joyn.de|sat1.at
+@@||console.cloud.google.com^$generichide
 @@||conspatriot.com^$generichide
 @@||constantcontact.com/js/WebTracking/
 @@||construction21.org/france/libsrc/jquery/jquery.cookiesdirective.explicit.min.js
@@ -4860,6 +4858,7 @@
 @@||discord.com^$generichide
 @@||discordapp.com/banners/$image
 @@||discordemoji.com^$generichide
+@@||discoveryplus.com^$generichide
 @@||discoveryplus.in/*/ads/banner_ad.js
 @@||discretemath.org/ads/
 @@||discretemath.org^$image,stylesheet
@@ -14462,6 +14461,7 @@
 @@||thedailybeast.com/static/advert.js
 @@||thefastlaneforum.com/community/js/*/adblocker-leader.js
 @@||thefightingcock.co.uk^$generichide
+@@||thefly.com/js/cookieConsent.js
 @@||thefoodstorydotcom.wpcomstaging.com^$generichide
 @@||thefreedictionary.com^$generichide
 @@||thegamesshop.com.au/controls/ajaxpages/*.aspx?ad=
@@ -15514,6 +15514,7 @@
 @@||watch.globaltv.com^$generichide
 @@||watch.opensubtitles.org/signup?ad_domain=
 @@||watch32hd.org/ads_*.js
+@@||watchadsontape.com/prebid.min.js
 @@||watchdirty.to/player/stats.php
 @@||watchdoctorwhoonline.com^$generichide
 @@||watcheverybodylovesraymond.com^$generichide
