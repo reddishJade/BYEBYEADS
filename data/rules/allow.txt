@@ -1,7 +1,7 @@
 ! Title: BYEBYEADS
 ! Homepage: https://github.com/reddishJade/BYEBYEADS
 ! Expires: 12 Hours
-! Version: 2025-01-23 20:24:01（北京时间）
+! Version: 2025-01-24 08:58:15（北京时间）
 ! Description: 适用于AdGuard、uBlock Origin等的去广告规则，合并优质上游规则并去重整理排列
 ! Total count: 16140
 
@@ -1739,6 +1739,7 @@
 @@||apfeltalk.de/community/$xmlhttprequest
 @@||aphim.co^$generichide
 @@||api*-access-sg.pangle.io^$app=com.square_enix.android_googleplay.dqwalkj
+@@||api*.branch.io^$app=com.reddit.frontpage
 @@||api-*.cludo.com/api/$stealth
 @@||api-*.netflix.com/win/uwa/$stealth
 @@||api-*.spot.im/v*/broadcasts/broadcasts/sp_$xmlhttprequest,domain=bizpacreview.com
@@ -1959,7 +1960,6 @@
 @@||api.workwise.io/cookieConsents$domain=workwise.io
 @@||api.youla.io^$stealth
 @@||api2.branch.io/v1/open$domain=flickplay.co
-@@||api2.branch.io^$app=com.reddit.frontpage
 @@||api2.branch.io^$app=com.spotify.music
 @@||api2.branch.io^$app=com.spotify.music|app.hallow.android|com.adobe.reader|tv.twitch.android.app
 @@||api2.branch.io^$app=com.strava
