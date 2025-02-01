@@ -3,6 +3,7 @@ import subprocess
 import glob
 import re
 import shutil
+import json
 from pathlib import Path
 from datetime import datetime
 import pytz
@@ -20,7 +21,7 @@ def generate_metadata(rule_count):
 ! Total count: {rule_count}
 
 """
-    return metadata
+    return metadata, current_time, rule_count
 
 os.chdir('tmp')
 
@@ -89,6 +90,8 @@ print("规则去重中")
 os.chdir(".././data/rules/")  # 更改当前目录
 files = os.listdir()  # 得到文件夹下的所有文件名称
 result = []
+total_rules = 0
+
 for file in files:  # 遍历文件夹
     if not os.path.isdir(file):  # 判断是否是文件夹，不是文件夹才打开
         if os.path.splitext(file)[1] == '.txt':
@@ -97,13 +100,24 @@ for file in files:  # 遍历文件夹
                 result.sort()
             
             # 添加元信息
-            metadata = generate_metadata(len(result))
+            metadata, current_time, rule_count = generate_metadata(len(result))
+            total_rules += len(result)
+            
             with open('test' + (file), "w", encoding="utf-8") as fo:
                 fo.write(metadata)  # 先写入元信息
                 fo.writelines(result)  # 再写入规则
             
             os.remove(file)
             os.rename('test' + (file), (file))
+
+# 生成统计信息JSON文件
+stats = {
+    "time": current_time.strftime('%Y-%m-%d %H:%M:%S'),
+    "count": total_rules
+}
+
+with open('stats.json', 'w', encoding='utf-8') as f:
+    json.dump(stats, f, ensure_ascii=False, indent=2)
 
 print("规则去重完成")
 
