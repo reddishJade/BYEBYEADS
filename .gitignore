@@ -14,4 +14,3 @@ ENV/
 # Project specific
 tmp/
 *.log
-data/rules/
