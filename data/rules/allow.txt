@@ -1,7 +1,7 @@
 ! Title: BYEBYEADS
 ! Homepage: https://github.com/reddishJade/BYEBYEADS
 ! Expires: 12 Hours
-! Version: 2025-02-10 20:24:17（北京时间）
+! Version: 2025-02-11 08:58:53（北京时间）
 ! Description: 适用于AdGuard、uBlock Origin等的去广告规则，合并优质上游规则并去重整理排列
 ! Total count: 16175
 
