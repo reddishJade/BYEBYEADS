@@ -1,9 +1,9 @@
 ! Title: BYEBYEADS
 ! Homepage: https://github.com/reddishJade/BYEBYEADS
 ! Expires: 12 Hours
-! Version: 2025-02-14 20:23:51（北京时间）
+! Version: 2025-02-15 08:58:29（北京时间）
 ! Description: 适用于AdGuard、uBlock Origin等的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16196
+! Total count: 16199
 
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$cookie=__gads,domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com|armypowerinfo.com|artoffocas.com|bhugolinfo.com|bhugolinfo.com|cxissuegk.com|gknutshell.com|godstoryinfo.com|laweducationinfo.com|makeincomeinfo.com|rsfinanceinfo.com|rsgames.xyz|savemoneyinfo.com|vichitrainfo.com|workproductivityinfo.com|worldaffairinfo.com
@@ -1962,6 +1962,7 @@
 @@||api.usercentrics.eu^$domain=highsnobiety.com
 @@||api.usercentrics.eu^$domain=rsi.ch
 @@||api.usercentrics.eu^$domain=s-pankki.fi
+@@||api.usercentrics.eu^$domain=srf.ch
 @@||api.usercentrics.eu^$script,xmlhttprequest,domain=moebel.de
 @@||api.val.qq.com/go/agame/resource/banner?bannerid=aclos_website_banner$domain=val.qq.com
 @@||api.vhx.com^$stealth=3p-auth
@@ -2037,6 +2038,7 @@
 @@||app.typetopia.com/media/ad/*.mp3|
 @@||app.usercentrics.eu/*.js$script,domain=hamburg-business.com
 @@||app.usercentrics.eu/*.js$script,domain=s-pankki.fi
+@@||app.usercentrics.eu/*.js$script,domain=srf.ch
 @@||app.usercentrics.eu/*/main.js$domain=liebherr.com
 @@||app.usercentrics.eu/*/main.js$domain=morenutrition.de
 @@||app.usercentrics.eu/browser-sdk/$domain=kabeleinsdoku.de|kabeleinsdoku.at
@@ -12842,6 +12844,7 @@
 @@||sdk.privacy-center.org^$domain=as.com
 @@||sdk.privacy-center.org^$domain=atresplayer.com
 @@||sdk.privacy-center.org^$domain=bfmtv.com
+@@||sdk.privacy-center.org^$domain=bienpublic.com|lejsl.com
 @@||sdk.privacy-center.org^$domain=blablacar.pl
 @@||sdk.privacy-center.org^$domain=cadenaser.com
 @@||sdk.privacy-center.org^$domain=canarias7.es
