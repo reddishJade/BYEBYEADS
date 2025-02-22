@@ -1,7 +1,7 @@
 ! Title: BYEBYEADS
 ! Homepage: https://github.com/reddishJade/BYEBYEADS
 ! Expires: 12 Hours
-! Version: 2025-02-21 20:24:04（北京时间）
+! Version: 2025-02-22 08:58:03（北京时间）
 ! Description: 适用于AdGuard、uBlock Origin等的去广告规则，合并优质上游规则并去重整理排列
 ! Total count: 16224
 
@@ -7116,7 +7116,6 @@
 @@||googletagmanager.com/gtm.js$domain=rbbtoday.com
 @@||googletagmanager.com/gtm.js$domain=realestate.co.nz
 @@||googletagmanager.com/gtm.js$domain=redbull.com
-@@||googletagmanager.com/gtm.js$domain=redstoneonline.jp
 @@||googletagmanager.com/gtm.js$domain=redwigwam.com
 @@||googletagmanager.com/gtm.js$domain=reglomobile.fr
 @@||googletagmanager.com/gtm.js$domain=renault.ru
@@ -11384,6 +11383,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=truffeonline.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$domain=tudaydeals.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$script,domain=conocesobreinformatica.com
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$script,domain=tamilyogi.wiki
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$xmlhttprequest,domain=getpaidtowritearticle.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$xmlhttprequest,domain=news-724.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js|$xmlhttprequest,domain=ottverse.com
