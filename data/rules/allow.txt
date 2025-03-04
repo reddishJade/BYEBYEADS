@@ -1,9 +1,9 @@
 ! Title: BYEBYEADS
 ! Homepage: https://github.com/reddishJade/BYEBYEADS
 ! Expires: 12 Hours
-! Version: 2025-03-04 09:01:51（北京时间）
+! Version: 2025-03-04 20:25:15（北京时间）
 ! Description: 适用于AdGuard、uBlock Origin等的去广告规则，合并优质上游规则并去重整理排列
-! Total count: 16263
+! Total count: 16268
 
 @@#.banner%20ad.$image,domain=dokuo666.blog98.fc2.com
 @@$cookie=__gads,domain=rseducationinfo.com|rsinsuranceinfo.com|rsadnetworkinfo.com|rsfinanceinfo.com|rshostinginfo.com|rssoftwareinfo.com|armypowerinfo.com|artoffocas.com|bhugolinfo.com|bhugolinfo.com|cxissuegk.com|gknutshell.com|godstoryinfo.com|laweducationinfo.com|makeincomeinfo.com|rsfinanceinfo.com|rsgames.xyz|savemoneyinfo.com|vichitrainfo.com|workproductivityinfo.com|worldaffairinfo.com
@@ -1764,7 +1764,6 @@
 @@||api-*.spot.im/v*/widget/spot/sp_*/conversation_header$domain=bizpacreview.com
 @@||api-*us1*.cludo.com/api/*/search$stealth
 @@||api-edge.cognitive.microsofttranslator.com/translate?
-@@||api-get.mgsearcher.com/api/$stealth=referrer
 @@||api-gw.spot.im/v*/feed/spot/sp_*/$domain=bizpacreview.com
 @@||api-js.datadome.co/js/$domain=account.samsung.com
 @@||api-js.datadome.co/js/|$stealth,domain=auth.garena.com
@@ -2563,6 +2562,7 @@
 @@||bild.met.vgwort.de/na^$domain=bild.de
 @@||bilibili.com/*/newplayer.html$stealth=referrer
 @@||bilibili.com^*/web_page_view?$domain=message.bilibili.com
+@@||bilinovel.com^$generichide
 @@||bilivideo.com^$stealth,domain=bilibili.com
 @@||billiger.de/js/emos2.js
 @@||billiongraves.com^$generichide
@@ -2634,6 +2634,7 @@
 @@||blocket.se/annonser^
 @@||blocket.se^*/xtcore.js
 @@||bloctel.gouv.fr/assets/scripts/smarttag.js
+@@||blog.6ziz.com^$generichide
 @@||blog.gouline.net/ads-b-feeders-on-raspberry-pi-
 @@||blog.krcesdev.com^$generichide
 @@||blog.livedoor.jp^$generichide
@@ -4240,6 +4241,7 @@
 @@||consent.cookiebot.com/uc.js$domain=goldpreis.de
 @@||consent.cookiebot.com/uc.js$domain=jagex.com
 @@||consent.cookiebot.com/uc.js$domain=lootboy.de
+@@||consent.cookiebot.com/uc.js$domain=moto100.de
 @@||consent.cookiebot.com/uc.js$domain=netkom.de
 @@||consent.cookiebot.com/uc.js$domain=olympiapark.de
 @@||consent.cookiebot.com/uc.js$domain=otto.fi
@@ -5930,6 +5932,7 @@
 @@||fxporn69.com^$generichide
 @@||fzmovies.*^$generichide
 @@||fzmovies.host^$generichide
+@@||g-mh.online^$image,domain=bzmh.org,stealth=referrer
 @@||g-status.com^$generichide
 @@||g.adspeed.net/ad.php?do=detectadblocker$domain=btcbunch.com
 @@||g.adspeed.net/ad.php?do=detectadblocker$domain=crewbase.net|crewus.net|shinchu.net|thumb8.net|thumb9.net
@@ -7498,6 +7501,7 @@
 @@||haokoubei.top/sz/tos_v_f.js
 @@||haoweichi.com/Public/js/ads.js
 @@||happy2hub.me^$generichide
+@@||happymh.com^$image,domain=hihimanga.com,stealth=referrer
 @@||happypancake.se/static/prebid.*.js$domain=happypancake.se|happypancake.fi
 @@||happyride.se/img/admarket/
 @@||hardwarezone.com.sg/js/prebid.appnexus.js$domain=forums.hardwarezone.com.sg
@@ -7927,7 +7931,7 @@
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=10play.com.au
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=20min.ch|lessentiel.lu
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com
-@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|antena3.ro|api.screen9.com|autokult.pl|bbc.com|blastingnews.com|bloomberg.co.jp|bloomberg.com|bsfuji.tv|cbc.ca|cbsnews.com|cbssports.com|chicagotribune.com|clickorlando.com|cnet.com|crunchyroll.com|delish.com|digi24.ro|distro.tv|doubtnut.com|einthusan.tv|embed.comicbook.com|etonline.com|farfeshplus.com|filmweb.pl|game.pointmall.rakuten.net|gamebox.gesoten.com|gamepix.com|gameplayneo.com|games.usatoday.com|gbnews.com|geo.dailymotion.com|givemesport.com|goodmorningamerica.com|goodstream.uno|gospodari.com|howstuffworks.com|humix.com|ignboards.com|iheart.com|insideedition.com|irctc.co.in|klix.ba|ktla.com|kxan.com|laurelberninteriors.com|lemino.docomo.ne.jp|locipo.jp|maharashtratimes.com|maxpreps.com|metacritic.com|minigame.aeriagames.jp|missoulian.com|myspace.com|nettavisen.no|paralympic.org|paramountplus.com|player.abacast.net|player.amperwave.net|player.earthtv.com|player.performgroup.com|plex.tv|pointmall.rakuten.co.jp|popculture.com|realmadrid.com|rte.ie|rumble.com|s.yimg.jp|scrippsdigital.com|sonyliv.com|southpark.lat|southparkstudios.com|spiele.heise.de|sportsbull.jp|sportsport.ba|success-games.net|synk-casualgames.com|tbs.co.jp|tdn.com|thecw.com|truvid.com|tubitv.com|tunein.com|tv-asahi.co.jp|tv.abcnyheter.no|tv.rakuten.co.jp|tver.jp|tvp.pl|univtec.com|utsports.com|video.tv-tokyo.co.jp|vlive.tv|watch.nba.com|wbal.com|weather.com|webdunia.com|wellgames.com|worldsurfleague.com|wowbiz.ro|wsj.com|wtk.pl|zdnet.com|zeebiz.com
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=247sports.com|airtelxstream.in|antena3.ro|api.screen9.com|autokult.pl|bbc.com|blastingnews.com|bloomberg.co.jp|bloomberg.com|bsfuji.tv|cbc.ca|cbsnews.com|cbssports.com|chicagotribune.com|clickorlando.com|cnet.com|crunchyroll.com|delish.com|digi24.ro|distro.tv|doubtnut.com|einthusan.tv|embed.comicbook.com|etonline.com|farfeshplus.com|filmweb.pl|game.pointmall.rakuten.net|gamebox.gesoten.com|gamepix.com|gameplayneo.com|games.usatoday.com|gbnews.com|geo.dailymotion.com|givemesport.com|goodmorningamerica.com|goodstream.uno|gospodari.com|howstuffworks.com|humix.com|ignboards.com|iheart.com|insideedition.com|irctc.co.in|klix.ba|ktla.com|kxan.com|laurelberninteriors.com|lemino.docomo.ne.jp|locipo.jp|maharashtratimes.com|maxpreps.com|metacritic.com|minigame.aeriagames.jp|missoulian.com|myspace.com|nettavisen.no|paralympic.org|paramountplus.com|player.abacast.net|player.amperwave.net|player.earthtv.com|player.performgroup.com|plex.tv|pointmall.rakuten.co.jp|popculture.com|realmadrid.com|rte.ie|rumble.com|s.yimg.jp|scrippsdigital.com|sonyliv.com|southpark.lat|southparkstudios.com|spiele.heise.de|sportsbull.jp|sportsport.ba|success-games.net|synk-casualgames.com|tbs.co.jp|tdn.com|thecw.com|truvid.com|tubitv.com|tunein.com|tv-asahi.co.jp|tv.abcnyheter.no|tv.rakuten.co.jp|tver.jp|tvp.pl|univtec.com|utsports.com|video.tv-tokyo.co.jp|vlive.tv|watch.nba.com|wbal.com|weather.com|webdunia.com|wellgames.com|worldsurfleague.com|wowbiz.ro|wsj.com|wtk.pl|zdnet.com|zeebiz.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=24h.com.vn
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=3bmeteo.com
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=4gtv.tv
@@ -9703,6 +9707,7 @@
 @@||mgr.consensu.org/v*/sibbo-cmp-atresplayer-web.js$domain=atresplayer.com
 @@||mgr.consensu.org^$domain=adslzone.net
 @@||mgr.consensu.org^$domain=blic.rs
+@@||mgsearcher.com/api/$stealth=referrer
 @@||mhktricks.org^$generichide
 @@||mhn.quest/*.js$~third-party
 @@||mhxk.com^*/main/entry.common.$script
@@ -10728,6 +10733,7 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bitefaucet.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bizjournals.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bleachmx.fr
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=blog.6ziz.com|docsmall.com|uiadmin.net|4horlover.com|23qb.net|4spaces.org|aboluowang.com|assbbs.com|bilinovel.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|fsbot.xyz|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|mens1069.com|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=blog.carstopia.net|blog.coinsvalue.net|blog.cookinguide.net|blog.freeoseocheck.com|blog.makeupguide.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=blog.textpage.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=bloggingsathi.com
@@ -10790,7 +10796,6 @@
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dl.ccbluex.net
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dlpanda.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=docsach24.co
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=docsmall.com|uiadmin.net|4horlover.com|23qb.net|4spaces.org|aboluowang.com|assbbs.com|bilinovel.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|fsbot.xyz|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|mens1069.com|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best|zaixianjisuan.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dogeen.xyz
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=dongknows.com
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=door2windows.com
